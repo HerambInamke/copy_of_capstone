@@ -83,7 +83,7 @@ const AuthPage = () => {
           <div className="user-card">
             <div className="profile-image-container">
               <img 
-                src={user.photoURL || "https://via.placeholder.com/100"} 
+                src={user.photoURL || "https://ui-avatars.com/api/?size=100&name=User"} 
                 alt="User Profile" 
                 className="profile-image" 
               />

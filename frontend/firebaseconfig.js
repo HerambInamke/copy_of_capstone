@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, browserPopupRedirectResolver } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -23,6 +23,11 @@ if (typeof window !== 'undefined') {
   app = initializeApp(firebaseConfig);
   auth = getAuth(app);
   googleProvider = new GoogleAuthProvider();
+  
+  // Configure popup settings
+  googleProvider.setCustomParameters({
+    prompt: 'select_account'
+  });
 }
 
 export { app, auth, googleProvider };
