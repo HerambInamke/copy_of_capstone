@@ -57,3 +57,4 @@
 {"level":"info","message":{"duration":"0ms","ip":"::1","method":"GET","status":404,"url":"/api/lost-found/statistics","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"service":"wedding-planner-api","timestamp":"2025-04-03 16:17:54"}
 {"level":"info","message":{"duration":"1ms","ip":"::1","method":"GET","status":404,"url":"/api/feedback/statistics","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"service":"wedding-planner-api","timestamp":"2025-04-03 16:17:54"}
 {"level":"info","message":"🚀 Server is running on port http://localhost:5000","service":"wedding-planner-api","timestamp":"2025-04-08 10:57:58"}
+{"level":"info","message":"🚀 Server is running on port http://localhost:5000","service":"wedding-planner-api","timestamp":"2025-04-08 13:20:57"}
